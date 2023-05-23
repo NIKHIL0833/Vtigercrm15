@@ -8,6 +8,16 @@ public class Test1 {
 		// TODO Auto-generated method stub
 		ChromeDriver driver = new ChromeDriver();
 	      driver.get("https://demo.actitime.com/login.do");
+	      public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChromeDriver driver = new ChromeDriver();
+	      driver.get("https://demo.actitime.com/login.do");
+	      public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChromeDriver driver = new ChromeDriver();
+	      driver.get("https://demo.actitime.com/login.do");
+	      
+	      
 
 	}
 
