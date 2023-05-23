@@ -1,0 +1,20 @@
+Web Element Methods:- anything displayed on the webpage Or visible area of the webpage is called webelement.
+1)click()
+2)clear()
+3)SendKeys()
+4)getAttributes()
+5)gettext()
+6)isEnable()
+7)isSelected() Condition :- button Type is Having Radio Button , Cheakbox Button
+8)isdisplayed()
+9)getcssvalue()
+10)gettagname()
+11)submit()     conndition :- tagname=button , type= submit & its Parrent Or Ansister having Element Type is Form.
+12)getsize()
+13)getlocation()
+14)getRect()
+
+Synchronization:-
+To Avoid Thread.sleep() We Synchronization Concept
+Defination:-it is process of maching Application Loading Speed & Automation Script Speed is Synchronization.
+if Both Speed Are Not mache Then Give no such element found exception.
