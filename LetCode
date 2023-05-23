@@ -1,0 +1,93 @@
+package Basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Test29 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://letcode.in/test");
+		Thread.sleep(2000);
+		driver.findElement(By.linkText("Click")).click();
+		Thread.sleep(2000);
+		 WebElement ele = driver.findElement(By.id("home"));
+		Thread.sleep(2000);
+		if(ele.isEnabled())
+		{
+			System.out.println("Home Button is Enabled");
+		}
+		else
+		{
+			System.out.println("Home Button is Not Enabled");
+		}
+		Thread.sleep(2000);
+		 WebElement ele1 = driver.findElement(By.id("position"));
+			Thread.sleep(2000);
+			if(ele1.isEnabled())
+			{
+				System.out.println("Find location Button is Enabled");
+			}
+			else
+			{
+				System.out.println("Find location Button is Not Enabled");
+			}
+			Thread.sleep(2000);
+			 WebElement ele2 = driver.findElement(By.id("color"));
+				Thread.sleep(2000);
+				if(ele2.isEnabled())
+				{
+					System.out.println("What is my color Button is Enabled");
+				}
+				else
+				{
+					System.out.println("What is my color Button is Not Enabled");
+				}
+
+				Thread.sleep(2000);
+				 WebElement ele4 = driver.findElement(By.id("isDisabled"));
+					Thread.sleep(2000);
+					if(ele4.isEnabled())
+					{
+						System.out.println("Confirm Button is Enabled");
+					}
+					else
+					{
+						System.out.println("Confirm Button is Not Enabled");
+					}
+					Thread.sleep(2000);
+					 WebElement ele5 = driver.findElement(By.id("isDisabled"));
+						Thread.sleep(2000);
+						if(ele5.isEnabled())
+						{
+							System.out.println("Hold Button is Enabled");
+						}
+						else
+						{
+							System.out.println("Hold Button is Not Enabled");
+						}
+						Dimension ele6 = driver.findElement(By.id("home")).getSize();
+						System.out.println("Size Of Home Button:-");
+						System.out.println(ele6.height);
+						System.out.println(ele6.width);
+						Thread.sleep(2000);
+						Dimension ele7 = driver.findElement(By.id("position")).getSize();
+						System.out.println("Size Of Find Location Button:-");
+						System.out.println(ele7.height);
+						System.out.println(ele7.width);
+						Thread.sleep(2000);
+						Dimension ele8 = driver.findElement(By.id("color")).getSize();
+						System.out.println("Size Of What is My color Button:-");
+						System.out.println(ele8.height);
+						System.out.println(ele8.width);
+						Thread.sleep(2000);
+						Dimension ele9 = driver.findElement(By.id("isDisabled")).getSize();
+						System.out.println("Size of Confirm Button:-");
+						System.out.println(ele9.height);
+						System.out.println(ele9.width);
+						Thread.sleep(2000);
+						
