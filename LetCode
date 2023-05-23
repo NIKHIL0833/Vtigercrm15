@@ -90,4 +90,6 @@ public class Test29 {
 						System.out.println(ele9.height);
 						System.out.println(ele9.width);
 						Thread.sleep(2000);
+						}
+						}
 						
