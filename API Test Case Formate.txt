@@ -1,0 +1,31 @@
+1. Platform
+2. details
+3. API Test Case
+   1.Tester Id
+   2.Operatig System Name ex;-Windows/MAC/linux
+   3. Opereting System Version
+   4.Base Url
+   5.Token Value ex :- Name& Value
+   6.EnvironMent ex if using then select Environment nameIf not use select NA
+
+
+SR NO|TestCaseID|TestDescription|Method|Body|EndPoint|Parameter|ExpectedOutput|ActualOutput|Status
+
+SR NO ex:-1
+1.test case ex:- TC_API_GH_Rep_001
+2.test Description ex:- Verify user is able tocreate repository
+3.Method ex:- POST
+4.Body ex :-{
+    "name":"abcdefg",
+    "description":"asdf",
+    "private":false
+}
+5.End Points ex:- /user/repos
+6. parameter ex :- NA
+7. a).Expected O/P ex:- user should be able to create repository
+   b)Status Code 201
+   c) Status Description "Created"
+   d) Response time 2000ms
+8. Actual O/p:- ex :
+9. Status ex :- fail
+
